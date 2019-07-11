@@ -1,0 +1,109 @@
+body{
+     margin: 0 auto; 
+     width:1200px;
+}
+#news{ 
+    background-color :#283140; 
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+    color: white; 
+    height:100px; 
+    line-height: 100px; 
+    padding: 0 10px; 
+  } 
+#news-heading1{ 
+    float: left; 
+    margin: 0; 
+} 
+#news-heading2{  
+    float: left; 
+    margin: 0 0 0 10px; 
+} 
+#total{ 
+    width: 70%; 
+    margin-bottom: 50px; 
+    float: left; 
+} 
+.total-picture{ 
+    float: left; 
+    width: 170px; 
+    height: 191px; 
+    margin-top:5px; 
+    margin-right:20px; 
+    margin-bottom:10px; 
+    background-color: #d0d0d0; 
+} 
+.total-heading{ 
+    color :x 283140; 
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+} 
+.total-date{ 
+    position:relative; 
+    bottom:15px; 
+    font-size:11px; 
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+} 
+.total-content{ 
+    position:relative; 
+    bottom:15px; 
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+} 
+.total-button{ 
+    position: relative; 
+    bottom:21px; 
+    background-color :#d64542; 
+    margin-bottom:5px; 
+    color: white; 
+    height: 30px; 
+    width: 150px; 
+    border: 0; 
+} 
+.side{ 
+    float: right;  
+    padding-top: 35px; 
+} 
+.side-label{ 
+    font-size: 11px; 
+    font-family: Verdana,Geneva,sans-serif; 
+} 
+#side-select{ 
+    width: 300px; 
+    height: 30px; 
+    margin-top: 16px;
+} 
+.side-label2{ 
+    font-size: 11px; 
+    font-family: Verdana,Geneva,sans-serif; 
+} 
+#side-input{ 
+    width: 200px; 
+    height:30px; 
+    position: relative; 
+    top: 15px; 
+} 
+.side-button{ 
+    width: 100px; 
+    height:36px; 
+    background-color: black; 
+    color: white; 
+    position: relative; 
+    top: 15px; 
+    right: 10px;
+    border: 0; 
+} 
+#foot{ 
+    text-align: center; 
+    background-color: #283140; 
+    height: 35px; 
+    color: white; 
+    font-size: 12px; 
+    clear: both;
+    line-height: 35px; 
+    position: fixed;
+    bottom: 0;
+    width: 88vw;
+} 
+.foot-text{   
+    margin: 0; 
+}
+
+
