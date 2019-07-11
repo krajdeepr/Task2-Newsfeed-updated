@@ -8,7 +8,9 @@ var data=[
         consequuntur voluptatum rerum suscipit? Qui, iste. Earum nostrum ex numquam alias aliquam ad odio
         placeat ab expedita nulla excepturi dolorum commodi, labore quis possimus iste illum. Deleniti
         rem, explicabo porro ipsam cumque cum. Ipsa cupiditate, officiis ex similique ea corrupti quaerat eos
-        nemo`
+        nemo`,
+        popup:`Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, nam est. Distinctio
+        consequuntur voluptatum rerum suscipit?`
     },
     {
         image:"<div class='total-picture'></div>",
@@ -18,7 +20,8 @@ var data=[
         consequuntur voluptatum rerum suscipit? Qui, iste. Earum nostrum ex numquam alias aliquam ad odio
         placeat ab expedita nulla excepturi dolorum commodi, labore quis possimus iste illum. Deleniti
         rem, explicabo porro ipsam cumque cum. Ipsa cupiditate, officiis ex similique ea corrupti quaerat eos
-        nemo`
+        nemo`,
+        popup:`hello`
     },
     {
         image:"<div class='total-picture'></div>",
@@ -28,7 +31,9 @@ var data=[
         consequuntur voluptatum rerum suscipit? Qui, iste. Earum nostrum ex numquam alias aliquam ad odio
         placeat ab expedita nulla excepturi dolorum commodi, labore quis possimus iste illum. Deleniti
         rem, explicabo porro ipsam cumque cum. Ipsa cupiditate, officiis ex similique ea corrupti quaerat eos
-        nemo`
+        nemo`,
+        popup:`Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, nam est. Distinctio
+        consequuntur voluptatum rerum suscipit?`
     },
     {
         image:"<div class='total-picture'></div>",
@@ -38,7 +43,9 @@ var data=[
         consequuntur voluptatum rerum suscipit? Qui, iste. Earum nostrum ex numquam alias aliquam ad odio
         placeat ab expedita nulla excepturi dolorum commodi, labore quis possimus iste illum. Deleniti
         rem, explicabo porro ipsam cumque cum. Ipsa cupiditate, officiis ex similique ea corrupti quaerat eos
-        nemo`
+        nemo`,
+        popup:`Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, nam est. Distinctio
+        consequuntur voluptatum rerum suscipit?`
     },
     {
         image:"<div class='total-picture'></div>",
@@ -48,7 +55,9 @@ var data=[
         consequuntur voluptatum rerum suscipit? Qui, iste. Earum nostrum ex numquam alias aliquam ad odio
         placeat ab expedita nulla excepturi dolorum commodi, labore quis possimus iste illum. Deleniti
         rem, explicabo porro ipsam cumque cum. Ipsa cupiditate, officiis ex similique ea corrupti quaerat eos
-        nemo`
+        nemo`,
+        popup:`Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, nam est. Distinctio
+        consequuntur voluptatum rerum suscipit?`
     },
     {
         image:"<div class='total-picture'></div>",
@@ -58,7 +67,9 @@ var data=[
         consequuntur voluptatum rerum suscipit? Qui, iste. Earum nostrum ex numquam alias aliquam ad odio
         placeat ab expedita nulla excepturi dolorum commodi, labore quis possimus iste illum. Deleniti
         rem, explicabo porro ipsam cumque cum. Ipsa cupiditate, officiis ex similique ea corrupti quaerat eos
-        nemo`
+        nemo`,
+        popup:`Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, nam est. Distinctio
+        consequuntur voluptatum rerum suscipit?`
 
     },
     {
@@ -69,7 +80,9 @@ var data=[
         consequuntur voluptatum rerum suscipit? Qui, iste. Earum nostrum ex numquam alias aliquam ad odio
         placeat ab expedita nulla excepturi dolorum commodi, labore quis possimus iste illum. Deleniti
         rem, explicabo porro ipsam cumque cum. Ipsa cupiditate, officiis ex similique ea corrupti quaerat eos
-        nemo`
+        nemo`,
+        popup:`Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, nam est. Distinctio
+        consequuntur voluptatum rerum suscipit?`
 
     },
     {
@@ -80,7 +93,9 @@ var data=[
         consequuntur voluptatum rerum suscipit? Qui, iste. Earum nostrum ex numquam alias aliquam ad odio
         placeat ab expedita nulla excepturi dolorum commodi, labore quis possimus iste illum. Deleniti
         rem, explicabo porro ipsam cumque cum. Ipsa cupiditate, officiis ex similique ea corrupti quaerat eos
-        nemo`
+        nemo`,
+        popup:`Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, nam est. Distinctio
+        consequuntur voluptatum rerum suscipit?`
     },
     {
         image:"<div class='total-picture'></div>",
@@ -90,7 +105,9 @@ var data=[
         consequuntur voluptatum rerum suscipit? Qui, iste. Earum nostrum ex numquam alias aliquam ad odio
         placeat ab expedita nulla excepturi dolorum commodi, labore quis possimus iste illum. Deleniti
         rem, explicabo porro ipsam cumque cum. Ipsa cupiditate, officiis ex similique ea corrupti quaerat eos
-        nemo`
+        nemo`,
+        popup:`Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, nam est. Distinctio
+        consequuntur voluptatum rerum suscipit?`
     },
     {
         image:"<div class='total-picture'></div>",
@@ -100,7 +117,9 @@ var data=[
         consequuntur voluptatum rerum suscipit? Qui, iste. Earum nostrum ex numquam alias aliquam ad odio
         placeat ab expedita nulla excepturi dolorum commodi, labore quis possimus iste illum. Deleniti
         rem, explicabo porro ipsam cumque cum. Ipsa cupiditate, officiis ex similique ea corrupti quaerat eos
-        nemo`
+        nemo`,
+        popup:`Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, nam est. Distinctio
+        consequuntur voluptatum rerum suscipit?`
     }
 ];
 function all(){
@@ -126,7 +145,12 @@ function body()
          '<h2 class="total-heading">'+data[j].heading+'</h2>'+
          '<p class="total-date">'+data[j].date+'</p>'+
          '<p class="total-content">'+data[j].matter+'</p>'+
-         '<button class="total-button" type="button">Continue Reading</button></div>'; 
+         '<button id="myBtn" class="total-button" onclick="popupall(data[' + j + '])" type="button">Continue Reading</button></div>'+ 
+         '<div id="myModal" class="modal"><div class="modal-content"><div class="modal-header">'+
+         '<span onclick="span()" class="close">&times;</span><h2>More Content</h2></div>'+
+         '<div id="popup_content" class="modal-body"><p>'+data[j].popup+'</p></div>'+
+         '<div class="modal-footer">'+
+         '<h3>Till Date</h3></div></div></div>';
         }
         completedata+=`</div><div class="side">
         <label class="side-label"><strong>SELECT CATEGORY</strong></label><br />
@@ -149,7 +173,8 @@ function body()
     </div>`;
     document.getElementById("main").innerHTML = completedata;
 }
-function select(){
+ function select(){
+    console.log("select");
     var x=document.getElementById("side-select").value;
     if(x==="ALL"){
         var html='';
@@ -159,7 +184,12 @@ function select(){
          '<h2 class="total-heading">'+data[j].heading+'</h2>'+
          '<p class="total-date">'+data[j].date+'</p>'+
          '<p class="total-content">'+data[j].matter+'</p>'+
-         '<button class="total-button" type="button">Continue Reading</button></div>'; 
+         '<button id="myBtn" class="total-button" onclick="button()" type="popupall(data[' + j + '])">Continue Reading</button>'+
+         '<div id="myModal" class="modal"><div class="modal-content"><div class="modal-header">'+
+         '<span onclick="span()" class="close">&times;</span><h2>More Content</h2></div>'+
+         '<div class="modal-body"><p>'+data[j].popup+'</p></div>'+
+         '<div class="modal-footer">'+
+         '<h3>Till Date</h3></div></div></div></div>'; 
         }
         document.getElementById("total").innerHTML = html;
     }
@@ -170,12 +200,17 @@ function select(){
         '<h2 class="total-heading">'+data[i].heading+'</h2>'+
         '<p class="total-date">'+data[i].date+'</p>'+
         '<p class="total-content">'+data[i].matter+'</p>'+
-        '<button class="total-button" type="button">Continue Reading</button></div>';
+        '<button id="myBtn" class="total-button" onclick="button()" type="button">Continue Reading</button>'+
+        '<div id="myModal" class="modal"><div class="modal-content"><div class="modal-header">'+
+        '<span onclick="span()" class="close">&times;</span><h2>More Content</h2></div>'+
+        '<div id="popup_content" class="modal-body"><p>'+data[i].popup+'</p></div>'+
+        '<div class="modal-footer">'+
+        '<h3>Till Date</h3></div></div></div></div>';
         }
         document.getElementById("total").innerHTML = html; 
     }
 }
-function validate() {
+function validate(){
 
     var email = document.getElementById('side-input');
     if (/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/.test(email.value))
@@ -190,3 +225,24 @@ function validate() {
   }
     return (false);
 }
+// var modal;
+function button(){
+let modal = document.getElementById("myModal"); 
+modal.style.display = "block";
+}
+function span(){
+    let modal = document.getElementById("myModal"); 
+    modal.style.display = "none";
+  }
+  window.onclick = function(event) {
+    modal = document.getElementById("myModal"); 
+
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+  }
+  function popupall(i) {
+    document.getElementById("popup_content").innerHTML = i.popup;
+    let modal = document.getElementById("myModal");
+    modal.style.display = "block";
+ }
