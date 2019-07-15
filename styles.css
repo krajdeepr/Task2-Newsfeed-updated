@@ -154,14 +154,15 @@ body{
   }
   
   .modal-header {
-    padding: 2px 16px;
+    padding: 1px 16px;
     background-color: #283140;
     color: white;
+    height: 61px;
     font-family: Futura,Trebuchet MS,Arial,sans-serif; 
   }
   
   .modal-body {
-    padding: 2px 16px;
+    padding: 5px 16px;
     font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
   
